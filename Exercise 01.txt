@@ -1,0 +1,34 @@
+Exercise 01: 
+
+public interface MyFirstInterface {
+    int x=5;
+    public void display();
+}
+
+1.There are no different with or without in static final keyword add above approache.Because interface class already declre variable in static final keyword.
+
+2.There are no different method with or without in abstract keyword add above approache.Because interface class already declre abstract method use in abstract keyword.
+
+Exercise 02: 
+
+public interface Speaker {
+     void speak();
+}
+
+public abstract class Politician implements Speaker {
+ public void speak() {
+      //......
+   }
+}
+
+public abstract class Priest implements Speaker {
+ public void speak() {
+      //......
+   }
+}
+
+public abstract class Lecturer implements Speaker {
+ public void speak() {
+      //......
+   }
+}
